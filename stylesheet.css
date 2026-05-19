@@ -195,3 +195,25 @@ nav.toc a.toc:hover {
       visibility: hidden; /* Hide the anchor points visually */
     }
 
+.new-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  margin-right: 8px;
+  border-radius: 10px;
+  background-color: #ff4d4f;
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.new-badge.flashy {
+  animation: pulse-badge 1.2s infinite;
+}
+
+@keyframes pulse-badge {
+  0%   { transform: scale(1); box-shadow: 0 0 0 0 rgba(255,77,79,0.7); }
+  70%  { transform: scale(1.08); box-shadow: 0 0 0 8px rgba(255,77,79,0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255,77,79,0); }
+}
