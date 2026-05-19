@@ -1,0 +1,1 @@
+This is the source code to Alain Pagani's public academic website, derived from Mathieu Aubry's public academic Website, which was itself derived from Jon Barron's public academic website: https://jonbarron.info/. Feel free to clone this code for your own personal use.
